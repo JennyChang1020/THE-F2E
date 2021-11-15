@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>台灣走走。Tai Walk</title>
+    <link
+      href="./css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./home-style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="logo" href="./home.html">
+              <img src="./img/Logo-desktop.svg" alt=""/>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display:flex;width: 262px; justify-content: space-between;">
+                <li class="nav-item">
+                  <a class="active" aria-current="page" href="./tourist-spots.html">探索景點</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="active" aria-current="page" href="./recent-activy.html">節慶活動</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="active" aria-current="page" href="./food-spots.html">品嘗美食</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- search-banner -->
+        <div class="container">
+          <div class="search-banner">
+            <div class="left">
+              <div class="banner-title">
+                探索
+                <span style="border-bottom: 2px #e0da48 solid; padding-bottom: 2px"
+                  >台灣之美</span
+                ><br />
+                讓我們更親近這片土地
+              </div>
+              <div class="subtitle">
+                <div class="vector-icon">
+                  <img src="./img/Vector.svg" alt="" />
+                </div>
+                <span class="subtitle-TW">台灣旅遊景點導覽&nbsp;</span>
+                <span class="subtitle-ENG">Taiwan Travel Guide</span>
+              </div>
+            </div>
+
+            <div class="right">
+              <select name="" id="">
+                <option value="" selected>探索景點</option>
+                <option value="">節慶活動</option>
+                <option value="">品嘗美食</option>
+              </select>
+    
+              <input type="text" placeholder="你想去哪裡？請輸入關鍵字" /><br />
+    
+              <button class="search-button">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img src="./img/search-icon.svg" alt="" />
+                  <span>搜尋</span>
+                </div>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- carousel -->
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+    
+            <div class="carousel-inner banner">
+              <div class="carousel-item active">
+                <img src="./img/ScenicSpotPicture.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>新北市 | 不厭亭</h3>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/ScenicSpotPicture-3.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>宜蘭縣 | 羅東林場</h3>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/ScenicSpotPicture.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>宜蘭縣 | 羅東林場</h3>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/ScenicSpotPicture-3.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>宜蘭縣 | 羅東林場</h3>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/ScenicSpotPicture.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>宜蘭縣 | 羅東林場</h3>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/ScenicSpotPicture-3.png" class="d-block" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>宜蘭縣 | 羅東林場</h3>
+                </div> 
+              </div>
+    
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 近期活動 -->
+        <div class="container">
+          <div class="recent-activy row">
+            <div class="d-flex title">
+              <h1>近期活動</h1>
+              <span class="more">查看更多活動&nbsp;&nbsp;></span>
+            </div>
+            
+            <div class="card col-lg-6">
+              <div class="card-img">
+                <img src="./img/EventPhoto.png" class="" alt="">
+              </div>
+              
+              <div class="card-body">
+                <div>
+                  <p class="card-text">2021/10/30 - 2021/11/13</p>
+                  <h5 class="card-title" style="display: flex;">2021 日月潭花火音樂嘉年華</h5>
+                </div>
+                  
+                
+                <div class="card-content">
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>南投縣</span>
+                  </div>
+                  
+                  <div class="d-flex">
+                    <a href="#">詳細介紹 ></a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <div class="card-img">
+                <img src="./img/EventPhoto-2.png" class="" alt="">
+              </div>
+              
+              <div class="card-body">
+                <div>
+                  <p class="card-text">2021/10/30 - 2022/02/08</p>
+                  <h5 class="card-title d-flex">山城花語溫泉系列活動－寶來不老溫泉季</h5>
+                </div>
+                  
+                
+                <div class="card-content">
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>高雄市</span>
+                  </div>
+                  
+                  <div class="d-flex">
+                    <a href="#">詳細介紹 ></a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <div class="card-img">
+                <img src="./img/EventPhoto-1.png" class="" alt="">
+              </div>
+              
+              <div class="card-body">
+                <div>
+                  <p class="card-text">2021/11/21 - 2021/11/21</p>
+                  <h5 class="card-title" style="display: flex;">新北市萬金石馬拉松</h5>
+                </div>
+                  
+                
+                <div class="card-content">
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>新北市</span>
+                  </div>
+                  
+                  <div class="d-flex">
+                    <a href="#">詳細介紹 ></a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="card col-lg-6">
+              <div class="card-img">
+                <img src="./img/EventPhoto-3.png" class="" alt="">
+              </div>
+              
+              <div class="card-body">
+                <div>
+                  <p class="card-text">2021/11/27 - 2021/11/28</p>
+                  <h5 class="card-title" style="display: flex;">2021 金門坑道音樂節</h5>
+                </div>
+                  
+                
+                <div class="card-content">
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>金門縣</span>
+                  </div>
+                  
+                  <div class="d-flex">
+                    <a href="#">詳細介紹 ></a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- 熱門打卡景點 -->
+        <div class="container">
+          <div class="tourist-spots row">
+            <div class="d-flex title">
+              <h1>熱門打卡景點</h1>
+              <span class="more">查看更多景點&nbsp;&nbsp;></span>
+            </div>
+
+            <div class="card-layout">
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-6.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">龜山島牛奶湖</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>宜蘭縣</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-4.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">高美濕地(高美野生...</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>台中市</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-2.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">溪頭自然教育園區</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>南投縣</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">九份老街</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>新北市</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 一再回訪美食 -->
+        <div class="container">
+          <div class="food-spots row">
+            <div class="d-flex title">
+              <h1>一再回訪美食</h1>
+              <span class="more">查看更多美食&nbsp;&nbsp;></span>
+            </div>
+
+            <div class="card-layout">
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-1.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">金都餐廳</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>南投縣</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-3.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">一中8兩碳烤雞排</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>台中市</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#" style="margin-right: 30px;">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-5.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">名根烤肉食材宅外送</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>新北市</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card" href="#">
+                <div class="card-img">
+                  <img src="./img/RestaurantPicture-7.png" alt="...">
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">石桌羊肉店</h5>
+  
+                  <div class="d-flex" style="align-items: center;">
+                    <div class="vector-icon">
+                      <img src="./img/Vector-gray.svg" alt="">
+                    </div>
+                    <span>嘉義縣</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <footer>
+            <p># The F2E 3rd Week01 # Jenny Chang</p>
+        </footer>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>

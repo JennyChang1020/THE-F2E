@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC";
+}
+
+h1 {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 52.13px;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.96px;
+}
+
+h6 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31.86px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  /* background-color: #e0da48; */
+  padding: 0px 45px;
+}
+
+/* 導覽列 */
+.navbar {
+  padding: 24px 0px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.nabar-toggler-icon {
+  background-color: #6e7d60;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #646464;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav-item a:hover {
+  color: #646464;
+  border-bottom: 3px solid #e0da48;
+  padding-bottom: 2px;
+}
+
+.nav-item a:focus {
+  border-bottom: 3px solid #7f977b;
+  padding-bottom: 2px;
+}
+
+/* 麵包穴 */
+.bread {
+  padding: 141px 0px 30px 0px;
+}
+
+.bread a {
+  text-decoration: none;
+  color: #6E7D60;
+}
+
+/* carousel */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner {
+  border-radius: 24px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.introduce {
+  margin-top: 30px;
+}
+
+.tag {
+  margin-top: 16px;
+}
+
+.tag span {
+  color: #bea363;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.96px;
+  border: 1px solid #bea363;
+  border-radius: 100px;
+  padding: 0px 10px;
+}
+
+.introduce-content {
+  margin-top: 4px;
+  padding: 30px 0px;
+}
+
+.introduce-content .title {
+  margin-bottom: 10px;
+}
+
+.introduce-information {
+  justify-content: space-between;
+}
+
+.introduce-information .title {
+  max-width: 100px;
+}
+
+.introduce-content p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30.6px;
+}
+
+.introduce-information .left {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px 30px 60px 30px;
+  max-width: 540px;
+}
+
+.introduce-information .right {
+  width: 540px;
+}
+
+.introduce-information .title {
+  max-width: 100px;
+}
+
+.left span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: calc(100% - 100px);
+  word-wrap: break-word;
+}
+
+.introduce-information .map {
+  border-radius: 12px;
+}
+
+.nearby {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  width: 160px;
+  height: 110px;
+  text-align: center;
+  align-items: center;
+}
+
+.nearby span {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #7f977b;
+}
+
+
+.tourist-spots .title {
+  padding: 0px 15px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.17px;
+  color: #ff725e;
+}
+
+.tourist-spots,
+.food-spots {
+  margin-top: 35px;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.card-layout {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 285px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.tourist-spots .card,
+.food-spots .card {
+  display: flex;
+  max-width: 255px;
+  min-width: 220px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.tourist-spots .card:hover .card-img img,.food-spots .card:hover .card-img img{
+  transform: scale(1.1);
+  transition: all 0.5s ease-out 0s;
+}
+
+.tourist-spots .card-img,
+.food-spots .card-img {
+  border-radius: 20px;
+  max-width: 255px;
+  min-width: 220px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tourist-spots .card-img img,
+.food-spots .card-img img {
+  width: 100%;
+}
+
+.tourist-spots .card-body,
+.food-spots .card-body {
+  height: 75px;
+  padding: 16px 0px;
+}
+
+.tourist-spots .card-title span,
+.food-spots .card-title span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #646464;
+  line-height: 23px;
+}
+
+footer {
+  background-color: #65895f;
+  height: 60px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 60px;
+  margin: 0px;
+}
